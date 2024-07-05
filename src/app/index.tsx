@@ -1,12 +1,11 @@
-import Background from "../components/Background";
 import HomePage from "../pages/home";
+import styles from './AppComponent.module.scss';
 
 const AppComponent = () => {
   return (
-    <>
-      <Background />
+    <div className={styles.container}>
       <HomePage />
-    </>
+    </div>
   );
 }
 

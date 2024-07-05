@@ -1,0 +1,13 @@
+.container {
+  background: url(/src/assets/crypto/Bitcoin.svg) 100% 0% no-repeat,
+    url(/src/assets/crypto/Litecoin.svg) 80% 50% no-repeat,
+    url(/src/assets/crypto/Ethereum.svg) 100% 100% no-repeat;
+}
+
+@media (max-width: 1350px) {
+  .container {
+    background: url(/src/assets/crypto/BitcoinSm.svg) 100% 0% no-repeat,
+      url(/src/assets/crypto/LitecoinSm.svg) 10% 40% no-repeat,
+      url(/src/assets/crypto/EthereumSm.svg) 100% 80% no-repeat;
+  }
+}
