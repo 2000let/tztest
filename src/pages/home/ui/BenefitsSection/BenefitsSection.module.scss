@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  padding-bottom: 6.25rem;
+}
+
+@media (max-width: 1350px) {
+  .container {
+    padding-bottom: 1.75rem;
+    width: 100%;
+  }
+}

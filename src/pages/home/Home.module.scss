@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  padding: 3rem 3.875rem;
+}
+
+@media (max-width: 1350px) {
+  .container {
+    padding: 0.8rem 1rem;
+  }
+}

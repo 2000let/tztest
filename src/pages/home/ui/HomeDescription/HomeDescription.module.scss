@@ -1,0 +1,18 @@
+.description {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40.8px;
+
+    color: rgba(130, 130, 130, 1);
+    padding-bottom: 5.5rem;
+}
+
+@media (max-width: 1350px) {
+    .description {
+        font-size: 20px;
+        line-height: 24px;
+        padding-bottom: 2rem;
+
+        text-align: center;
+    }
+}

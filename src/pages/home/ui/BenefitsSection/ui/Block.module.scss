@@ -1,0 +1,17 @@
+.text {
+  font-size: 48px;
+}
+.description {
+  font-size: 18px;
+  color: rgba(242, 242, 242, 0.3);
+}
+
+@media (max-width: 1350px) {
+  .text {
+    font-size: 28px;
+  }
+  .description {
+    font-size: 14px;
+    color: rgba(242, 242, 242, 0.3);
+  }
+}

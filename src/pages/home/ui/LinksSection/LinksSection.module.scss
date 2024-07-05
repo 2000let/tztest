@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 1350px) {
+    .container {
+        justify-content: center;
+    }
+}
